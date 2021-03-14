@@ -1,6 +1,0 @@
-<figure>
-  <a href="[[+image_absolute]]" data-size="[[+image_absolute_width]]x[[+image_absolute_height]]">
-    <img title="[[+description]]" src="[[+image_absolute:phpthumbof=`w=768&h=576&zc=1&q=98`]]" alt="[[+description]]"/>
-  </a>
-  <figcaption>[[+description]]</figcaption>
-</figure>
