@@ -45,7 +45,7 @@ This is to build an array of slides from a list of links. For resizing the image
 
 Create Chunk "albumItemTpl" and add the following.
 
-`albumItemTpl`
+[albumItemTpl](chunks/albumItemTpl)
 
 Step 2: PhotoSwipe integration
 
@@ -55,7 +55,7 @@ The getImageProperties Snippet fetch the width and height from each Gallery Albu
 
 Create Snippet "getImageProperties" and add the following.
 
-`getImageProperties`
+[getImageProperties](snippets/getImageProperties)
 
 <h2>PhotoSwipe Gallery</h2>
 
