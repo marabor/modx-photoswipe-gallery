@@ -9,7 +9,7 @@ MODX Gallery Extra
 
 MODX phpThumbOf Extra
 
-getImageProperties Snippet
+[getImageProperties Snippet](#snippet-getimageproperties)
 
 PhotoSwipe Gallery
 
