@@ -51,7 +51,7 @@ Create Chunk "albumItemTpl" and add the following.
 
 Step 2: PhotoSwipe integration
 
-<h2>Snippet getImageProperties</h2>
+<h2>#Snippet getImageProperties</h2>
 
 The getImageProperties Snippet fetch the width and height from each Gallery Album Item. It's necessary because PhotoSwipe requires predefined image dimensions for html data-size attribute.
 
