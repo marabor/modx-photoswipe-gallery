@@ -7,9 +7,9 @@ We need the following to implement that.
 
     MODX Gallery Extra
     MODX phpThumbOf Extra
-    getImageProperties Snippet ↓
+    getImageProperties Snippet
     PhotoSwipe Gallery
-    photoswipeIntegration Snippet (optional) ↓ 
+    photoswipeIntegration Snippet (optional)
 
 Before beginning
 
