@@ -6,9 +6,13 @@ on a thumb inside the album the picture is shown with PhotoSwipe Gallery.
 We need the following to implement that.
 
 MODX Gallery Extra
+
 MODX phpThumbOf Extra
+
 getImageProperties Snippet
+
 PhotoSwipe Gallery
+
 [photoswipeIntegration Snippet (optional)](#Snippet photoswipeIntegration)
 
 <h2>Before beginning</h2>
