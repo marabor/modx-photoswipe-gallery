@@ -72,3 +72,7 @@ Create Snippet "photoswipeIntegration" and add the following.
 Complete the integration with upload the required PhotoSwipe files, get them at [GitHub](https://github.com/dimsemenov/photoswipe). Create "photoswipe" directory in your assets directory and put the css, js and skin files in there.
 
 That should be it. Note: This is not a reference, it should only illustrate what is possible when you combine the MODX Gallery Extra with other third party components like PhotoSwipe Gallery.
+
+Complete the integration with upload the required PhotoSwipe files, get them at GitHub. Create "photoswipe" directory in your assets directory and put the css, js and skin files in there.
+
+That should be it. Note: This is not a reference, it should only illustrate what is possible when you combine the MODX Gallery Extra with other third party components like PhotoSwipe Gallery.
