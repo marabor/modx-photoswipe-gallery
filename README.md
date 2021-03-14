@@ -28,3 +28,17 @@ _gallery-extra_
 <h2>Templating</h2>
 
 For templating use the following two Chunks.
+
+<h2>Chunk getImagePropertiesTpl</h2>
+
+Create Chunk "getImagePropertiesTpl" and add the following.
+
+_getImagePropertiesTpl_
+
+<h2>Chunk albumItemTpl</h2>
+
+This is to build an array of slides from a list of links. For resizing the image items i use the MODX phpThumbOf Extra, make sure you installed it.
+
+Create Chunk "albumItemTpl" and add the following.
+
+_albumItemTpl_
