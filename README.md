@@ -56,8 +56,8 @@ Create Snippet "getImageProperties" and add the following.
 [getImageProperties](snippets/getImageProperties)
 
 <h2>PhotoSwipe Gallery</h2>
-
-Next add the PhotoSwipe code to your Resource or Template. For getting startet with PhotoSwipe please visit the documentation. Alternatively you can use the optional photoswipeIntegration Snippet, which you can find below.
+https://photoswipe.com/documentation/getting-started.html
+Next add the PhotoSwipe code to your Resource or Template. For getting startet with PhotoSwipe please visit the [documentation](https://photoswipe.com/documentation/getting-started.html). Alternatively you can use the optional photoswipeIntegration Snippet, which you can find below.
 
 <h2>Snippet photoswipeIntegration</h2>
 
