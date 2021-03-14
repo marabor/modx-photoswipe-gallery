@@ -15,33 +15,16 @@ We need the following to implement that.
 
 The first thing to do is installing the MODX Gallery Extra and make sure that at least one album was created and a few pictures were loaded into it. To avoid confusion, give the uploaded images a short description. Any questions? A quick reference for setting up your gallery could be found in the documentation.
 
-Usage
+<h2>Usage</h2>
 
-Step 1: Creating a template based overview of the albums. In this case is use the Gallery Snippet and the GalleryAlbums Snippet wich both comes with the MODX Gallery Extra.
+__Step 1:__ Creating a template based overview of the albums. In this case is use the Gallery Snippet and the GalleryAlbums Snippet wich both comes with the MODX Gallery Extra.
 
-MODX Gallery Extra
+<h2>MODX Gallery Extra</h2>
 
 The Gallery Snippet and the GalleryAlbums Snippet can be called using this tags. To make things easier you can also put in there the optional photoswipeIntegration Snippet.
 
-[[!GalleryAlbums? &toPlaceholder=`my-galleries`]]
-<div>
-  <h2>Galleries</h2>
-  <ul>
-    [[+my-galleries]]
-  </ul>
-</div>
+_gallery-extra_
 
-[[!Gallery? &toPlaceholder=`my-gallery` &thumbTpl=`getImagePropertiesTpl`]]
-[[!+my-gallery:notempty=`
-  <!-- Combine MODX Gallery Extra and PhotoSwipe Gallery -->
-  <h2>[[+my-gallery.name]]</h2>
-  <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-    [[+my-gallery]]
-  </div>
-`]]
-
-[[!photoswipeIntegration]]
-
-Templating
+<h2>Templating</h2>
 
 For templating use the following two Chunks.
