@@ -1,0 +1,18 @@
+[[!GalleryAlbums? &toPlaceholder=`my-galleries`]]
+<div>
+  <h2>Galleries</h2>
+  <ul>
+    [[+my-galleries]]
+  </ul>
+</div>
+
+[[!Gallery? &toPlaceholder=`my-gallery` &thumbTpl=`getImagePropertiesTpl`]]
+[[!+my-gallery:notempty=`
+  <!-- Combine MODX Gallery Extra and PhotoSwipe Gallery -->
+  <h2>[[+my-gallery.name]]</h2>
+  <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+    [[+my-gallery]]
+  </div>
+`]]
+
+[[!photoswipeIntegration]]
