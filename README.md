@@ -13,7 +13,7 @@ getImageProperties Snippet
 
 PhotoSwipe Gallery
 
-[photoswipeIntegration Snippet (optional)](#Snippet photoswipeIntegration)
+[photoswipeIntegration Snippet (optional)](#snippet-photoswipeintegration)
 
 <h2>Before beginning</h2>
 
