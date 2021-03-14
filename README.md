@@ -21,9 +21,11 @@ __Step 1:__ Creating a template based overview of the albums. In this case is us
 
 <h2>MODX Gallery Extra</h2>
 
-The Gallery Snippet and the GalleryAlbums Snippet can be called using this tags. To make things easier you can also put in there the optional photoswipeIntegration Snippet.
+The Gallery Snippet and the GalleryAlbums Snippet can be called using this tags. To make things easier you can also put in there the optional photoswipeIntegrationallery-extra
 
 _gallery-extra_
+
+`gallery-extra`
 
 <h2>Templating</h2>
 
