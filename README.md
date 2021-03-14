@@ -11,16 +11,13 @@ We need the following to implement that.
     PhotoSwipe Gallery
     photoswipeIntegration Snippet (optional)
 
-
 <h2>Before beginning</h2>
 
 The first thing to do is installing the MODX Gallery Extra and make sure that at least one album was created and a few pictures were loaded into it. To avoid confusion, give the uploaded images a short description. Any questions? A quick reference for setting up your gallery could be found in the [documentation](https://docs.modx.com/current/en/extras/gallery/gallery.setting-up-your-gallery).
 
-
 <h2>Usage</h2>
 
 Step 1: Creating a template based overview of the albums. In this case is use the Gallery Snippet and the GalleryAlbums Snippet wich both comes with the MODX Gallery Extra.
-
 
 <h2>MODX Gallery Extra</h2>
 
@@ -29,7 +26,6 @@ The [Gallery Snippet](https://docs.modx.com/current/en/extras/gallery/gallery) a
 Create a new Resource or Template and add following.
 
 [using-gallery-extra](example/using-gallery-extra)
-
 
 <h2>Templating</h2>
 
@@ -41,7 +37,6 @@ Create Chunk "getImagePropertiesTpl" and add the following.
 
 [getImagePropertiesTpl](chunks/getImagePropertiesTpl)
 
-
 <h2>Chunk albumItemTpl</h2>
 
 This is to build an array of slides from a list of links. For resizing the image items i use the MODX phpThumbOf Extra, make sure you installed it.
@@ -50,9 +45,7 @@ Create Chunk "albumItemTpl" and add the following.
 
 [albumItemTpl](chunks/albumItemTpl)
 
-
 Step 2: PhotoSwipe integration
-
 
 <h2>Snippet getImageProperties</h2>
 
@@ -61,7 +54,6 @@ The getImageProperties Snippet fetch the width and height from each Gallery Albu
 Create Snippet "getImageProperties" and add the following.
 
 [getImageProperties](snippets/getImageProperties)
-
 
 <h2>PhotoSwipe Gallery</h2>
 
