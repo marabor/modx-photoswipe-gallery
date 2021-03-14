@@ -58,3 +58,17 @@ Create Snippet "getImageProperties" and add the following.
 <h2>PhotoSwipe Gallery</h2>
 
 Next add the PhotoSwipe code to your Resource or Template. For getting startet with PhotoSwipe please visit the documentation. Alternatively you can use the optional photoswipeIntegration Snippet, which you can find below.
+
+<h2>Snippet photoswipeIntegration</h2>
+
+This Snippet includes PhotoSwipe JS and CSS files, add PhotoSwipe (.pswp) element to DOM and initialize and execute (pure Vanilla JS implementation). It's optional, but it is to make things easier. Integration can of course also be done manually.
+
+Create Snippet "photoswipeIntegration" and add the following.
+
+[photoswipeIntegration](snippets/photoswipeIntegration)
+
+<h2>Required PhotoSwipe files</h2>
+
+Complete the integration with upload the required PhotoSwipe files, get them at [GitHub](https://github.com/dimsemenov/photoswipe). Create "photoswipe" directory in your assets directory and put the css, js and skin files in there.
+
+That should be it. Note: This is not a reference, it should only illustrate what is possible when you combine the MODX Gallery Extra with other third party components like PhotoSwipe Gallery.
