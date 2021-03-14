@@ -17,7 +17,7 @@ The first thing to do is installing the MODX Gallery Extra and make sure that at
 
 <h2>Usage</h2>
 
-__Step 1:__ Creating a template based overview of the albums. In this case is use the Gallery Snippet and the GalleryAlbums Snippet wich both comes with the MODX Gallery Extra.
+Step 1: Creating a template based overview of the albums. In this case is use the Gallery Snippet and the GalleryAlbums Snippet wich both comes with the MODX Gallery Extra.
 
 <h2>MODX Gallery Extra</h2>
 
@@ -35,7 +35,7 @@ For templating use the following two Chunks.
 
 Create Chunk "getImagePropertiesTpl" and add the following.
 
-_getImagePropertiesTpl_
+`getImagePropertiesTpl`
 
 <h2>Chunk albumItemTpl</h2>
 
@@ -43,4 +43,18 @@ This is to build an array of slides from a list of links. For resizing the image
 
 Create Chunk "albumItemTpl" and add the following.
 
-_albumItemTpl_
+`albumItemTpl`
+
+Step 2: PhotoSwipe integration
+
+<h2>Snippet getImageProperties</h2>
+
+The getImageProperties Snippet fetch the width and height from each Gallery Album Item. It's necessary because PhotoSwipe requires predefined image dimensions for html data-size attribute.
+
+Create Snippet "getImageProperties" and add the following.
+
+`getImageProperties`
+
+<h2>PhotoSwipe Gallery</h2>
+
+Next add the PhotoSwipe code to your Resource or Template. For getting startet with PhotoSwipe please visit the documentation. Alternatively you can use the optional photoswipeIntegration Snippet, which you can find below.
