@@ -9,9 +9,11 @@ We need the following to implement that.
     MODX phpThumbOf Extra
     getImageProperties Snippet
     PhotoSwipe Gallery
-    photoswipeIntegration Snippet (optional)
+    [photoswipeIntegration Snippet (optional)](#Snippet photoswipeIntegration)
 
 <h2>Before beginning</h2>
+
+[Go to Real Cool Heading section](#real-cool-heading)
 
 The first thing to do is installing the MODX Gallery Extra and make sure that at least one album was created and a few pictures were loaded into it. To avoid confusion, give the uploaded images a short description. Any questions? A quick reference for setting up your gallery could be found in the [documentation](https://docs.modx.com/current/en/extras/gallery/gallery.setting-up-your-gallery).
 
@@ -59,7 +61,7 @@ Create Snippet "getImageProperties" and add the following.
 
 Next add the PhotoSwipe code to your Resource or Template. For getting startet with PhotoSwipe please visit the [documentation](https://photoswipe.com/documentation/getting-started.html). Alternatively you can use the optional photoswipeIntegration Snippet, which you can find below.
 
-<h2>Snippet photoswipeIntegration</h2>
+<h2>#Snippet photoswipeIntegration</h2>
 
 This Snippet includes PhotoSwipe JS and CSS files, add PhotoSwipe (.pswp) element to DOM and initialize and execute (pure Vanilla JS implementation). It's optional, but it is to make things easier. Integration can of course also be done manually.
 
