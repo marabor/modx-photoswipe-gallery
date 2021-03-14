@@ -11,7 +11,7 @@ We need the following to implement that.
     PhotoSwipe Gallery
     photoswipeIntegration Snippet (optional)
 
-Before beginning
+<h2>Before beginning</h2>
 
 The first thing to do is installing the MODX Gallery Extra and make sure that at least one album was created and a few pictures were loaded into it. To avoid confusion, give the uploaded images a short description. Any questions? A quick reference for setting up your gallery could be found in the documentation.
 
