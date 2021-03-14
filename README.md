@@ -37,6 +37,8 @@ Create Chunk "getImagePropertiesTpl" and add the following.
 
 `getImagePropertiesTpl`
 
+[getImagePropertiesTpl](chunks/getImagePropertiesTpl)
+
 <h2>Chunk albumItemTpl</h2>
 
 This is to build an array of slides from a list of links. For resizing the image items i use the MODX phpThumbOf Extra, make sure you installed it.
