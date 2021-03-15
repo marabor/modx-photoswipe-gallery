@@ -7,9 +7,9 @@ We need the following to implement that.
 
 - MODX Gallery Extra
 - MODX phpThumbOf Extra
-- [getImageProperties Snippet ↓](#snippet-getimageproperties)
+- [getImageProperties Snippet](#snippet-getimageproperties)
 - PhotoSwipe Gallery
-- [photoswipeIntegration Snippet (optional) ↓](#snippet-photoswipeintegration)
+- [photoswipeIntegration Snippet (optional)](#snippet-photoswipeintegration)
 
 <h2>Before beginning</h2>
 
