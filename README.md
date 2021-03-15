@@ -69,7 +69,7 @@ Create Snippet "photoswipeIntegration" and add the following.
 
 [photoswipeIntegration](snippets/photoswipeIntegration)
 
-<h2>Required PhotoSwipe files</h2>
+<h2>PhotoSwipe files</h2>
 
 Complete the integration with upload the required PhotoSwipe files, get them at [GitHub](https://github.com/dimsemenov/photoswipe). Create "photoswipe" directory in your assets directory and put the css, js and skin files in there.
 
