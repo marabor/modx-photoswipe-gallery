@@ -3,6 +3,8 @@
 Combine [MODX Gallery Extra](https://docs.modx.com/current/en/extras/gallery/index) and [PhotoSwipe Gallery](http://www.photoswipe.com/) to create a Gallery Album and when clicked
 on a thumb inside the album the picture is shown with PhotoSwipe Gallery.
 
+<h2>Required things</h2>
+
 We need the following to implement that.
 
 - MODX Gallery Extra
