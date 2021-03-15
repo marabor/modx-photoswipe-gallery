@@ -83,13 +83,6 @@ $modx->regClientHTMLBlock('
 
 /* Step 3: Initialize and execute function */
 
-// implementation with extern file
-/*
-$modx->regClientHTMLBlock('');
-$modx->regClientHTMLBlock('<!-- Initialize -->');
-$modx->regClientHTMLBlock('<script src="'.MODX_ASSETS_URL.'photoswipe/photoswipe-init.js"></script>'); 
-*/
-
 // pure Vanilla JS implementation (standard for this snippet)
 
 $modx->regClientHTMLBlock('<!-- Initialize -->');
