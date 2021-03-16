@@ -25,9 +25,7 @@ Step 1: Creating a template based overview of the albums. In this case is use th
 
 The [Gallery Snippet](https://docs.modx.com/current/en/extras/gallery/gallery) and the [GalleryAlbums Snippet](https://docs.modx.com/current/en/extras/gallery/gallery.galleryalbums)  can be called using this tags. To make things easier you can also put in there the optional photoswipeIntegration Snippet.
 
-Create a new Resource or Template and add following.
-
-[using-gallery-extra](example/using-gallery-extra)
+Create a new Resource or Template and add following. [using-gallery-extra](example/using-gallery-extra)
 
 <h2>Templating</h2>
 
@@ -35,17 +33,13 @@ For templating use the following two Chunks.
 
 <h2>Chunk getImagePropertiesTpl</h2>
 
-Create Chunk "getImagePropertiesTpl" and add the following.
-
-[getImagePropertiesTpl](chunks/getImagePropertiesTpl)
+Create Chunk "getImagePropertiesTpl" and add the following. [getImagePropertiesTpl](chunks/getImagePropertiesTpl)
 
 <h2>Chunk albumItemTpl</h2>
 
 This is to build an array of slides from a list of links. For resizing the image items i use the MODX phpThumbOf Extra, make sure you installed it.
 
-Create Chunk "albumItemTpl" and add the following.
-
-[albumItemTpl](chunks/albumItemTpl)
+Create Chunk "albumItemTpl" and add the following. [albumItemTpl](chunks/albumItemTpl)
 
 Step 2: PhotoSwipe integration
 
@@ -53,9 +47,7 @@ Step 2: PhotoSwipe integration
 
 The getImageProperties Snippet fetch the width and height from each Gallery Album Item. It's necessary because PhotoSwipe requires predefined image dimensions for html data-size attribute.
 
-Create Snippet "getImageProperties" and add the following.
-
-[getImageProperties](snippets/getImageProperties)
+Create Snippet "getImageProperties" and add the following. [getImageProperties](snippets/getImageProperties)
 
 <h2>PhotoSwipe Gallery</h2>
 
@@ -65,9 +57,7 @@ Next add the PhotoSwipe code to your Resource or Template. For getting startet w
 
 This Snippet includes PhotoSwipe JS and CSS files, add PhotoSwipe (.pswp) element to DOM and initialize and execute (pure Vanilla JS implementation). It's optional, but it is to make things easier. Integration can of course also be done manually.
 
-Create Snippet "photoswipeIntegration" and add the following.
-
-[photoswipeIntegration](snippets/photoswipeIntegration)
+Create Snippet "photoswipeIntegration" and add the following. [photoswipeIntegration](snippets/photoswipeIntegration)
 
 <h2>PhotoSwipe files</h2>
 
