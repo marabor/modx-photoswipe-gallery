@@ -9,10 +9,10 @@ Download [PDF](https://github.com/marabor/modx-photoswipe-gallery/raw/main/MODX-
 
 We need the following to implement that.
 
-- MODX Gallery Extra
-- MODX phpThumbOf Extra
+- [MODX Gallery Extra](https://docs.modx.com/current/en/extras/gallery/index)
+- [MODX phpThumbOf Extra](https://docs.modx.com/current/en/extras/phpthumbof/index)
 - getImageProperties Snippet ↓
-- PhotoSwipe Gallery
+- [PhotoSwipe Gallery](http://www.photoswipe.com/)
 - photoswipeIntegration Snippet (optional) ↓
 
 <h2>Before beginning</h2>
