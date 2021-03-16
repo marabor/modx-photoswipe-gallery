@@ -25,7 +25,7 @@ Step 1: Creating a template based overview of the albums. In this case is use th
 
 The [Gallery Snippet](https://docs.modx.com/current/en/extras/gallery/gallery) and the [GalleryAlbums Snippet](https://docs.modx.com/current/en/extras/gallery/gallery.galleryalbums)  can be called using this tags. To make things easier you can also put in there the optional photoswipeIntegration Snippet.
 
-Create a new Resource or Template and add following. [using-gallery-extra](example/using-gallery-extra)
+Create a new Resource or Template and add following. [modx-gallery-extra](example/modx-gallery-extra)
 
 <h2>Templating</h2>
 
