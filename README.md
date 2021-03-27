@@ -56,7 +56,6 @@ Create Chunk "albumItemTpl" and add the following. [albumItemTpl](chunks/albumIt
 </figure>
 ```
 
-
 Step 2: PhotoSwipe integration
 
 <h2>#Snippet getImageProperties</h2>
@@ -64,6 +63,51 @@ Step 2: PhotoSwipe integration
 The getImageProperties Snippet fetch the width and height from each Gallery Album Item. It's necessary because PhotoSwipe requires predefined image dimensions for html data-size attribute.
 
 Create Snippet "getImageProperties" and add the following. [getImageProperties](snippets/getImageProperties)
+
+```javascript
+<?php
+/**
+ * getImageProperties
+ *
+ * DESCRIPTION
+ *
+ * This Snippet fetch the width and height from a Gallery Album Item using the "image_absolute" Placeholder
+ *
+ * It's necessary to combine MODX Gallery Extra and PhotoSwipe gallery script
+ * PhotoSwipe requires predefined image dimensions for html data-size attribute
+ *
+ * PROPERTIES:
+ * 
+ * &ia string is required
+ *
+ * USAGE:
+ *
+ * [[!getImageProperties? &ia=`[[+image_absolute]]`]]
+ *
+ */
+
+$ia = $modx->getOption('ia', $scriptProperties);
+
+if (!isset($scriptProperties['ia'])) {
+  $modx->log(modX::LOG_LEVEL_ERROR, '[getImageProperties] missing required properties &ia!');
+  return;
+}
+
+// to use PHP getimagesize properly in some cases it is necessary to remove the leading slash
+$l = strlen($ia)-1;
+$ian=substr($ia,1,$l);  
+
+list($iawidth, $iaheight) = getimagesize($ian);
+
+// templating
+$tpl = $modx->getOption('tpl',$scriptProperties,'albumItemTpl'); // default property
+$output = $modx->getChunk($tpl,array(
+  'image_absolute_width' => $iawidth,
+  'image_absolute_height' => $iaheight
+));
+
+return $output;
+```
 
 <h2>PhotoSwipe Gallery</h2>
 
