@@ -35,7 +35,7 @@ For templating use the following two Chunks.
 
 <h2>Chunk getImagePropertiesTpl</h2>
 
-Create Chunk "getImagePropertiesTpl" and add the following. [getImagePropertiesTpl](chunks/getImagePropertiesTpl)
+Create Chunk "getImagePropertiesTpl" and add the following.
 
 ```html
 [[!getImageProperties? &ia=`[[+image_absolute]]`]]
@@ -45,7 +45,7 @@ Create Chunk "getImagePropertiesTpl" and add the following. [getImagePropertiesT
 
 This is to build an array of slides from a list of links. For resizing the image items i use the MODX phpThumbOf Extra, make sure you installed it.
 
-Create Chunk "albumItemTpl" and add the following. [albumItemTpl](chunks/albumItemTpl)
+Create Chunk "albumItemTpl" and add the following.
 
 ```html
 <figure>
@@ -58,11 +58,11 @@ Create Chunk "albumItemTpl" and add the following. [albumItemTpl](chunks/albumIt
 
 Step 2: PhotoSwipe integration
 
-<h2>#Snippet getImageProperties</h2>
+<h2>Snippet getImageProperties</h2>
 
 The getImageProperties Snippet fetch the width and height from each Gallery Album Item. It's necessary because PhotoSwipe requires predefined image dimensions for html data-size attribute.
 
-Create Snippet "getImageProperties" and add the following. [getImageProperties](snippets/getImageProperties)
+Create Snippet "getImageProperties" and add the following.
 
 ```javascript
 <?php
@@ -113,11 +113,11 @@ return $output;
 
 Next add the PhotoSwipe code to your Resource or Template. For getting startet with PhotoSwipe please visit the [documentation](https://photoswipe.com/documentation/getting-started.html). Alternatively you can use the optional photoswipeIntegration Snippet, which you can find below.
 
-<h2>#Snippet photoswipeIntegration</h2>
+<h2>Snippet photoswipeIntegration</h2>
 
 This Snippet includes PhotoSwipe JS and CSS files, add PhotoSwipe (.pswp) element to DOM and initialize and execute (pure Vanilla JS implementation). It's optional, but it is to make things easier. Integration can of course also be done manually.
 
-Create Snippet "photoswipeIntegration" and add the following. [photoswipeIntegration](snippets/photoswipeIntegration)
+Create Snippet "photoswipeIntegration" and add the following.
 
 ```javascript
 <?php
