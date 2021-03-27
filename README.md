@@ -43,14 +43,6 @@ This is to build an array of slides from a list of links. For resizing the image
 
 Create Chunk "albumItemTpl" and add the following. [albumItemTpl](chunks/albumItemTpl)
 
-[code]<figure>
-  <a href="[[+image_absolute]]" data-size="[[+image_absolute_width]]x[[+image_absolute_height]]">
-    <img title="[[+description]]" src="[[+image_absolute:phpthumbof=`w=768&h=576&zc=1&q=98`]]" alt="[[+description]]"/>
-  </a>
-  <figcaption>[[+description]]</figcaption>
-</figure>
-[/code]
-
 Step 2: PhotoSwipe integration
 
 <h2>#Snippet getImageProperties</h2>
