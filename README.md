@@ -19,7 +19,7 @@ The first thing to do is installing the MODX Gallery Extra and make sure that at
 
 <h2>Usage</h2>
 
-Step 1: Creating a template based overview of the albums. In this case is use the Gallery Snippet and the GalleryAlbums Snippet wich both comes with the MODX Gallery Extra.
+__Step 1:__ Creating a template based overview of the albums. In this case is use the Gallery Snippet and the GalleryAlbums Snippet wich both comes with the MODX Gallery Extra.
 
 <h2>MODX Gallery Extra</h2>
 
@@ -75,7 +75,7 @@ Create Chunk "albumItemTpl" and add the following.
 </figure>
 ```
 
-Step 2: PhotoSwipe integration
+__Step 2:__ PhotoSwipe integration
 
 <h2>Snippet getImageProperties</h2>
 
